@@ -1,0 +1,7 @@
+networkx>=3.4
+numpy
+scipy>=1.11
+pandas
+matplotlib
+# optional, only for --backend cpsat:
+# ortools
