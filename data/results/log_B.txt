@@ -1,0 +1,6 @@
+# 240 graphs, set B, backend highs, time limit 30.0s | Python 3.13.16, networkx 3.6.1, scipy 1.18.1
+  50/240  1s
+  100/240  1s
+  150/240  243s
+  200/240  607s
+# done in 1394s -> data/results/set_B_highs.csv
