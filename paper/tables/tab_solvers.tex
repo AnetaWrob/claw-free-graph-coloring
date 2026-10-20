@@ -1,0 +1,19 @@
+\begin{tabular}{llrrrrrrr}
+\toprule
+ & & \multicolumn{4}{c}{Exact DSATUR} & \multicolumn{3}{c}{\textsc{V-edge} model}\\
+\cmidrule(lr){3-6}\cmidrule(lr){7-9}
+Set & Family & Solved [\%] & Median [ms] & Max [s] & Median nodes & Solved [\%] & Median [ms] & Max [s]\\
+\midrule
+A & Erd\H{o}s--R\'enyi & 100.0 & 0.47 & 0.02 & 0 & 100.0 & 17.0 & 1.17\\
+A & bipartite & 100.0 & 0.51 & 0.02 & 0 & 100.0 & 13.1 & 0.61\\
+A & trees & 100.0 & 0.11 & 0.00 & 0 & 100.0 & 5.6 & 0.01\\
+A & regular & 82.6 & 1.82 & 30.00 & 214 & 100.0 & 14.1 & 0.34\\
+A & subdivided regular & 22.2 & 30001$^{\dagger}$ & 30.00 & 5055488 & 100.0 & 165 & 22.33\\
+\midrule
+B & co-bipartite & 100.0 & 0.25 & 0.01 & 0 & 100.0 & 18.7 & 0.05\\
+B & co-triangle-free & 50.0 & 16389$^{\dagger}$ & 30.00 & 1904076 & 80.0 & 103 & 30.05\\
+\midrule
+C & line & 100.0 & 0.03 & 0.00 & 0 & 100.0 & 6.1 & 0.03\\
+C & non-line & 100.0 & 0.03 & 0.01 & 0 & 100.0 & 6.2 & 0.02\\
+\bottomrule
+\end{tabular}

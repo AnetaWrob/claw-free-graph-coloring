@@ -1,1 +1,17 @@
-
+\begin{tabular}{llrrrrrrr}
+\toprule
+ & & & \multicolumn{2}{c}{Exact DSATUR} & \multicolumn{3}{c}{Median model time [ms]} & \\
+\cmidrule(lr){4-5}\cmidrule(lr){6-8}
+Class of $H$ & Family & Graphs & Solved [\%] & Median nodes & $T_V$ & $T_C$ & $T_E$ & Overfull [\%]\\
+\midrule
+I & Erd\H{o}s--R\'enyi & 285 & 100.0 & 0 & 17.0 & 10.3 & 8.1 & 0\\
+I & bipartite & 240 & 100.0 & 0 & 13.1 & 8.0 & 7.5 & 0\\
+I & trees & 75 & 100.0 & 0 & 5.6 & 5.2 & 5.1 & 0\\
+I & regular & 299 & 97.3 & 106 & 9.9 & 8.1 & 6.8 & 0\\
+I & all families & 899 & 99.1 & 0 & 10.3 & 8.0 & 6.8 & 0\\
+\midrule
+II & regular & 91 & 34.1 & 5006080 & 55.6 & 58.8 & 36.0 & 99\\
+II & subdivided regular & 135 & 22.2 & 5055488 & 165 & 216 & 134 & 0\\
+II & all families & 226 & 27.0 & 5054592 & 94.8 & 121 & 68.4 & 40\\
+\bottomrule
+\end{tabular}
